@@ -1,8 +1,8 @@
 #!/usr/bin/python2
 #coding=utf-8
-#Codded By Jam Shahrukh
+#Codded By Faizul
 #Editing My Script Will Not Make You A Coder
-#Facebook : JAM Shahrukh
+#Facebook : Faizul
 #Whatsapp : ++971528752764
 #Pakistan Cyber Expert
 #Alone Coder 
